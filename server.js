@@ -39,19 +39,6 @@ handleJoke(jokeType)
 
 })
 
-// *******
-
-// .get("/joke/:type", (req, res) => {
-//   const type = req.params.type;
-//   handleJoke(type)
-//     .then((result) => {
-//       res.status(200).json({ status: 200, joke: result });
-//     })
-//     .catch((error) => {
-//       res.status(400).json({ status: 400, error: error });
-//     });
-// })
-
 
 
   .listen(8000, () => console.log(`Listening on port 8000`));
